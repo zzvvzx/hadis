@@ -1,0 +1,51 @@
+Thoharoh|1
+Air|323
+Haidl dan Istihadloh|346
+Mandi dan Tayammum|393
+Sholat|444
+Waktu-Waktu Sholat|490
+Adzan|622
+Masjid|681
+Kiblat|734
+Keimaman|769
+Iftitah (Pembukaan)|866
+Pelaksanaan|1019
+Sahwi (Lupa)|1166
+Jum'at|1350
+Mengqoshor Sholat Saat Safar|1416
+Sholat Kusuf (Gerhana)|1442
+Istisqo (Meminta Hujan)|1487
+Sholat Khouf (Dalam Kondisi Takut)|1512
+Sholat Idul Adha dan Idul Fithri|1538
+Qiyamul Lail dan Sholat Sunnah Siang Hari|1580
+Jenazah|1795
+Puasa|2063
+Zakat|2392
+Manasik Haji|2572
+Jihad|3035
+Pernikahaan|3145
+Talak|3336
+Kuda Perang|3505
+Waqaf|3538
+Wasiat|3553
+Pemberian|3612
+Hibah|3628
+Ruqba|3646
+Umra|3660
+Sumpah dan Nadzar|3701
+Menggauli Wanita|3878
+Kesucian Darah|3903
+Pembagian Fa'i|4064
+Baiah|4080
+Aqiqoh|4141
+Far' dan 'Athiroh|4150
+Buruan dan Sembelihan|4190
+Hewan Sembelihan|4285
+Jual-Beli|4373
+Qussamah|4627
+Potong Tangan|4787
+Iman dan Syariatnya|4899
+Perhiasan|4954
+Adab Hakim|5284
+Meminta Perlindungan|5333
+Minuman|5445

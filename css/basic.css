@@ -1,0 +1,265 @@
+
+
+
+/*
+ * Basic css rules
+ * night at the jungle theme..
+ * fxr.20170615
+ *
+ */
+
+
+html{
+  background:#000;
+  color:#888;
+  font-family:"Segoe UI";
+  font-size:13px;
+  cursor:default;
+  --colorLight: #fff;
+  --colorDark: #111;
+  --color1: green;
+  --color2: olive;
+  --color3: ;
+  --color4: ;
+  --colorFix1:#FFC300;   /* strong yellow */
+}
+body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  word-break:break-word;
+}
+li{
+  list-style:none;
+  display:table;
+}
+ol{
+  position:relative;
+  margin:0;
+  padding:0;
+}
+::before,
+::after{
+  content:'';
+  position:absolute;
+  pointer-events:none;
+}
+label{
+  display:table;
+}
+input{
+  margin:.2em;
+  vertical-align:middle!important;
+  box-sizing:border-box;
+}
+select{
+  margin:.5em 0;
+  font-size:inherit;
+}
+table{
+  border-collapse:collapse;
+}
+td{
+  padding:0 0.5em;
+  vertical-align:top;
+  word-break:break-word;
+  table-layout: fixed;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+  padding-bottom:.2em;
+  line-height:1em;
+}
+h1{ font-size:300% }
+h2{ font-size:250% }
+h3{ font-size:200% }
+h4{ font-size:150% }
+h5{ font-size:120% }
+h6{ font-size:100% }
+a{
+  color:inherit;
+  text-decoration:none;
+  cursor:pointer;
+  color:var(--color1);
+}
+a:hover{ text-decoration:underline }
+a:after{
+  content:' \2197';
+  margin:-.1em 0 0 0.2em;
+  font-weight:700;
+  font-size:.8em;
+  color:var(--color1);
+}
+button{
+  padding:0;
+  background:none;
+  border:none;
+  color:inherit;
+  font-family:inherit;
+  font-size:inherit;
+  box-sizing:border-box;
+  vertical-align:middle;
+}
+button:hover{
+  opacity:.9;
+}
+small{
+  display:inline-block;
+  line-height:1.2em;
+}
+
+
+
+
+/* common */
+
+.css-ellipsis{
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.css-link:hover{
+  text-decoration:underline;
+  cursor:pointer;
+}
+.css-bold{
+  font-weight:700;
+}
+.css-italic{
+  font-style:italic;
+}
+.css-supersmall{
+  font-size:50%;
+}
+.css-num{
+  width:2.2em;
+  text-align:right;
+  font-size:90%;
+}
+.css-input{
+  margin:.2em 0;
+  font-family:inherit;
+  font-size:inherit;
+  background:none;
+  color:inherit;
+  border:none;
+  border-color:var(--color1);
+  outline:none;
+}
+.css-input::-webkit-input-placeholder {
+  color:inherit;
+}
+.css-input:focus::-webkit-input-placeholder {
+  color:transparent;
+}
+::-moz-placeholder{
+  opacity:1;
+}
+.css-input-flat{
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  height:1.5em;
+  line-height:1em;
+  width:16em;
+  max-width:100%;
+  margin-bottom:.5em;
+}
+.css-button-small{
+  display:inline-block;
+  height:2em;
+  line-height:2em;
+  padding:0 0.8em;
+  font-size:100%;
+}
+.css-rounded{
+  border-radius:2px;
+}
+.css-block{
+  display:block
+}
+.css-inlineblock{
+  display:inline-block
+}
+.css-table{
+  display:table;
+  word-break:break-word;
+  border-left:transparent solid 0.3em;
+  border-right:transparent solid 0.3em;
+}
+.css-padded-left{
+  padding-left:1em;
+}
+.css-quote{
+  padding-left:1em;
+  border-left:var(--color1) solid 2px;
+}
+
+
+
+/* colors */
+
+.css-faded{
+  opacity:0.7;
+}
+.css-color1{ color:var(--color1) }
+.css-color2{ color:var(--color2) }
+.css-color3{ color:var(--color3) }
+.css-color4{ color:var(--color4) }
+
+.css-bg1{
+  color:var(--colorLight);
+  background:var(--color1);
+}
+.css-bg2{
+  color:var(--colorDark); /* because of yellow */
+  background:var(--colorFix1);
+}
+
+
+
+
+/* listing */
+
+.css-li-root{
+  margin:0 0 0 3em;
+  padding:0;
+  font-size:90%;
+  counter-increment: counter;
+}
+.css-li-root-first{
+  padding-top:.5em;
+}
+.css-li-root-last{
+  padding-bottom:.5em;
+}
+.css-li-root:before{ /* dashed */
+  margin:-.7em 0 0 -2em;
+  width:.5em;
+  height:1.2em;
+  border-left:var(--color1) dotted 1px;
+  border-bottom:var(--color1) dotted 1px;
+}
+.css-li-root:after{ /* numbering */
+  content: counter(counter);
+  left:2em;
+  color:var(--color1);
+}
+
+.css-pagination-items{
+  display:inline-block;
+  margin:0 10px;
+  height:20px;
+  line-height:20px;
+  text-align:center;
+  font-size:14px;
+  font-weight:700;
+}
+.css-pagination-first,
+.css-pagination-last{
+
+}
+.css-pagination-last{
+  margin-left:10px;
+}
+
+

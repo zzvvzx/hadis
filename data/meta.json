@@ -1,0 +1,30 @@
+{
+  "bukhari": {
+    "filesize": 5318,
+    "kitab": "Sahih al-Bukhari"
+  },
+  "muslim": {
+    "filesize": 4799,
+    "kitab": "Sahih Muslim"
+  },
+  "abudawud": {
+    "filesize": 3297,
+    "kitab": "Sunan Abu Dawud"
+  },
+  "tirmidzi": {
+    "filesize": 3349,
+    "kitab": "Jami' at-Tirmidhi"
+  },
+  "nasai": {
+    "filesize": 3250,
+    "kitab": "As-Sunan as-Sughra"
+  },
+  "ibnumajah": {
+    "filesize": 2325,
+    "kitab": "Sunan Ibn Majah"
+  },
+  "malik": {
+    "filesize": 741,
+    "kitab": "Al-Muwatta Malik"
+  }
+}

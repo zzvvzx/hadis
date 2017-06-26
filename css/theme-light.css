@@ -1,0 +1,44 @@
+
+
+
+/*
+ * Theme, Light
+ * fxr.20170615
+ *
+ */
+
+ 
+ 
+/* basic */
+
+html{
+  background:#f0f0f0;
+  color:#222;
+  --color1:#143E5A; /* dark blue */
+  --color2:green;   /* dark blue */
+  
+}
+
+
+.css-color1{
+  font-weight:700;
+}
+
+.MENU-logo,
+.BTC{
+  -filter:saturate(.5) hue-rotate(85deg); /* blue */
+  filter:grayscale(1) contrast(3);        /* black */
+}
+
+
+#MENU.SIDE-show,
+#RIGHT.SIDE-show{
+  background:#f0f0f0;
+}
+
+#VERTICALNAV{
+  border-left:rgba(0,0,0,0.1) solid 1px;
+}
+.VERTICALNAV-filler{
+  opacity:0.1;
+}

@@ -1,0 +1,32 @@
+Waktu-Waktu Sholat|1
+Thoharoh|29
+Adzan|134
+Jenazah|464
+Zakat|513
+Puasa|557
+I'tikaf|605
+Haji|617
+Jihad|849
+Nadzar dan Iman|895
+Sembelihan Kurban|912
+Sembelihan|925
+Buruan|934
+Aqiqoh|945
+Faroidl (Pembagian Harta Waris)|951
+Nikah|964
+Tholak|1009
+Penyusuan|1101
+Jual Beli|1119
+Pinjaman|1195
+Penyiraman|1197
+Sewa Tanah|1199
+Syuf'ah|1203
+Peradilan|1205
+Memerdekakan Budak dan Wala'|1264
+Budak Yang di Merdekakan|1283
+Mudabbar|1286
+Hukuman Pelanggaran|1288
+Minuman|1324
+Tebusan|1338
+Qussamah|1372
+Lain-Lain|1374

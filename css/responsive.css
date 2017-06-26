@@ -1,0 +1,108 @@
+
+
+
+/*
+ * Responsive Breakpoint
+ * fxr.20170615
+ *
+ */
+
+
+/* 1, first break (small laptops) < 1200px */
+@media (max-width: 1200px) {
+
+  .MAIN-center{
+    left:170px;
+    width:520px;
+  }
+  #RIGHT{
+    left:680px;
+    max-width:calc(100% - 680px);
+  }
+
+  #DIALOG-inner{
+    padding-left:220px;
+  }
+
+}
+
+
+/* 2, (tablets) < 900px */
+@media (max-width: 900px) {
+
+  .MAIN-center{
+    left:0;
+    width:65%;
+    padding-right:10px;
+  }
+  #MENU,
+  #RIGHT{
+    position:absolute;
+    left:68%;
+    max-width:calc(100% - 68%);
+    padding-left:0;
+  }
+  #MENU{ margin-top:-30px }
+  #RIGHT{ top:470px }
+
+  #DIALOG-inner{
+    padding-left:50px;
+  }
+
+}
+
+
+/* 3, (phones) < 600px */
+/* shows verticalnav */
+@media (max-width: 600px) {
+  
+  .MAIN-center{
+    left:0;
+    width:100%;
+    padding-right:60px;
+  }
+  #MENU,
+  #RIGHT{
+    display:none;
+  }
+
+  #VERTICALNAV{
+    display:block;
+  }
+  #SEARCH-input{
+    max-width:50%;
+  }
+
+}
+
+/* 3, (small phones) < 400px */
+@media (max-width: 400px) {
+
+  .MAIN-center{
+    padding-right:30px;
+  }
+
+}
+
+
+
+
+
+
+/* 4, show/hide (CENTER) scrollbar
+ *
+ * hide scrollbar
+ *
+ */
+@media (max-width: 600px) {
+
+  /* hide scrollbar */
+  .MAIN-center{
+    coverflow:-moz-scrollbars-none;
+  }
+  .MAIN-center::-webkit-scrollbar{
+    display:none;
+  }
+
+}
+

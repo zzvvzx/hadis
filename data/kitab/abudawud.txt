@@ -1,0 +1,35 @@
+Thoharoh|1
+Sholat|331
+Zakat|1331
+Barang Temuan|1450
+Manasik|1463
+Nikah|1750
+Talak|1860
+Puasa|1969
+Jihad|2118
+Sembelihan|2406
+Buruan|2461
+Wasiat|2478
+Waris|2499
+Pajak, Kepemimpinan dan Fai|2539
+Jenazah|2685
+Sumpah dan Nadzar|2821
+Jual Beli|2890
+Peradilan|3100
+Ilmu|3157
+Minuman|3184
+Makanan|3247
+Pengobatan|3357
+Pembebasan Budak|3425
+Huruf dan Bacaan|3455
+Pemandian Umum|3494
+Pakaian|3504
+Merapihkan Rambut|3628
+Cincin|3681
+Fitnah dan Peperangan Besar|3702
+Al Mahdi|3731
+Peperangan Besar|3740
+Hudud|3787
+Diyat|3896
+Sunnah|3980
+Adab|4143

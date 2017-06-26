@@ -1,0 +1,39 @@
+
+
+#SEARCH-result{
+  margin-left:-3.4em;
+}
+
+
+
+#SEARCH-input{
+  padding:0 .5em;
+  height:2em;
+  width:24em;
+  max-width:70%;
+  font-size:120%;
+  border:var(--color1) solid 1px;
+}
+#SEARCH-clear{
+  height:2em;
+  line-height:2em;
+  margin-left:.4em;
+  padding:0 .9em;
+  font-size:120%;
+}
+
+
+
+#SEARCH-status{
+  padding:10px 0 10px 0;
+}
+
+#SEARCH-pagination{
+  margin:0 0 16px -10px;
+}
+
+.SEARCH-result-link{
+  display:table;
+  margin-top:.3em;
+  font-size:80%;
+}

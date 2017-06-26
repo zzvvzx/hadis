@@ -1,0 +1,39 @@
+
+
+
+/* table container */
+
+#READRIGHT-table{
+  margin-left:-20px;
+}
+.READCENTER-table{
+  margin-left:-3.4em;
+}
+
+
+
+
+/* content */
+
+.READCENTER-title-small{
+  font-size:15px;
+}
+.READCENTER-subtitle{
+  margin-top:5px;
+  margin-bottom:20px;
+  font-size:12px;
+}
+
+
+
+/* items */
+
+.css-td-paragraph{
+  padding-bottom:20px;
+  font-size:115%;
+}
+.READCENTER-active{
+  border-right:var(--color2) solid 2px;
+  color:var(--color2);
+}
+
